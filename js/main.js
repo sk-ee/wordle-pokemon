@@ -58,8 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
           console.log(Math.floor(Math.random() * 12) +1 )  
           if(Math.floor(Math.random() * 12) +1 == 10) {
             console.log( responseJSON2[i])
-            word = "eevee"
-            //word = responseJSON2[i].toString().toLowerCase()
+            word = responseJSON2[i].toString().toLowerCase()
           }
         }
       }
